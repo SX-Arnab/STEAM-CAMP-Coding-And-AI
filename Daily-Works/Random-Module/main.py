@@ -1,3 +1,4 @@
+'''
 # Work 1 :  Generate 6 random numbers between 1 and 50 for a lottery simulation.
 from random import randint
 for i in range(1,7):
@@ -45,10 +46,10 @@ print(random_question)
 
 
 # Work 4 : 
-'''
+"""
  Randomly choose a recipe from a CSV file
  of dishes to decide what to cook today.
-'''
+"""
 import csv
 from random import choice
 
@@ -60,3 +61,4 @@ with open('dishes.csv', 'r') as f:
 
 random_dish = choice(list_content)
 print(random_dish)
+'''
