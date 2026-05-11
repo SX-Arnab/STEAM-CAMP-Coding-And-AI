@@ -1,0 +1,10 @@
+import requests
+r = requests.get('https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true')
+
+print(r)
+print(type(r))
+print(r.text)
+
+
+with open("filename.json","w") as f:
+    f.write(r.text)

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "u_8821",
+    "isActive": true,
+    "name": "Elena Rodriguez",
+    "email": "e.rodriguez@example.com",
+    "roles": ["admin", "editor"],
+    "metadata": {
+      "last_login": "2024-05-12T10:30:00Z",
+      "timezone": "Europe/Madrid"
+    }
+  },
+  {
+    "id": "u_8822",
+    "isActive": false,
+    "name": "Marcus Chen",
+    "email": "mchen_dev@provider.net",
+    "roles": ["viewer"],
+    "metadata": {
+      "last_login": "2024-04-29T18:15:22Z",
+      "timezone": "Asia/Singapore"
+    }
+  }
+]   
