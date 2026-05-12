@@ -20,13 +20,12 @@ Goal: To store Data in organized way
 SQLite(Easy)
 
 
-
     Asynchronous Tasks
 Goal: To let user load site immediatly
   Module:
         Threading
 
-OS Integration
+    OS Integration
 Goal: To execute various operations When AI feels threat
   Modules:
         OS security APIs
