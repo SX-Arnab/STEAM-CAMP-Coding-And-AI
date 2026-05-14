@@ -11,4 +11,4 @@ if len(count_hyphen) >=2 or match or ip_url:
     print("The URl feels suspicious. DO NOT CLICK\n\n")
 
 else:
-    print('It seems to be safe')
+    print('It seems to be safe.')
